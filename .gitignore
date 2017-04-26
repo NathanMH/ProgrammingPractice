@@ -30,6 +30,9 @@
 # IntelliJ
 /out/
 
+# Visual Studio
+.vs
+
 # mpeltonen/sbt-idea plugin
 .idea_modules/
 

@@ -1,3 +1,5 @@
+/* Your program should emit the word as a series of elements by name with proper capitalization from the table. */
+
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -35,8 +37,14 @@ public class ChemSpelling {
     private static void checkLetters(HashMap<String, String> chash) {
         String sample = "genius";
         for(int i = 0; i < sample.length();) {
-            String substring = String.valueOf(sample.substring(i, i+2));
-            System.out.println(substring);
+            String substring;
+            if(i+2 >= sample.length()) {
+                substring = String.valueOf(sample.substring(i, i+2));
+                System.out.println(substring);
+            } else {
+                substring = String.valueOf(sample.substring(i, i+1));
+                System.out.println(substring);
+            }
             if(chash.get(substring) != null) {
                 System.out.println("Found a 2 letter match: " + chash.get(substring));
                 i+=2;
@@ -48,6 +56,5 @@ public class ChemSpelling {
                 break;
             }
         }
-
     }
 }
