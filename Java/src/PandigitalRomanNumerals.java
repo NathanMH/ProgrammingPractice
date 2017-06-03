@@ -1,3 +1,5 @@
+/* Find all numbers that use each of the symbols I, V, X, L, C, and M at least once for numbers less than 2000 */
+
 public class PandigitalRomanNumerals {
 
     public static void main(String [] args) {
