@@ -1,4 +1,5 @@
 import csv
+import json
 import os
 import jellyfish
 
@@ -18,7 +19,8 @@ def create_single_string():
                 for row in csv_shorts:
                     row["string"] = " ".join(map(str, row.values()))
                     applications[app].append(row)
-    # print(applications)
+    print(applications["fman"][1])
+    print(applications["fman"][2])
 
 
 # Add score field to the functions data structure
@@ -50,13 +52,13 @@ def make_scores(text):
 
 if __name__ == "__main__":
     create_single_string()
-    scored = make_scores("emacs leader buffer")
+    # scored = make_scores("emacs leader buffer")
 
     # scored = sorted(shortcuts, key=lambda d: d["score"], reverse=True)
 
     # print(scored)
     # print(scored[0])
-    print(scored[1])
+    # print(scored[1])
     # print(scored[2])
     # print(scored[3])
     # print(scored[4])
