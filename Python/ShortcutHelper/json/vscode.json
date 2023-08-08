@@ -1,0 +1,14 @@
+[
+  {
+    "keybinding": "leader+z",
+    "function": "Toggle Zen Mode"
+  },
+  {
+    "keybinding": "leader+f",
+    "function": "Toggle Full Screen Mode"
+  },
+  {
+    "keybinding": "leader+z",
+    "function": "Zen Mode"
+  }
+]

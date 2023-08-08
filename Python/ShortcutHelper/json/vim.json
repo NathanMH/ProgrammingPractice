@@ -1,0 +1,802 @@
+[
+  {
+    "app": "vim",
+    "keybinding": "h",
+    "function": "left"
+  },
+  {
+    "app": "vim",
+    "keybinding": "j",
+    "function": "down"
+  },
+  {
+    "app": "vim",
+    "keybinding": "k",
+    "function": "up"
+  },
+  {
+    "app": "vim",
+    "keybinding": "l",
+    "function": "right"
+  },
+  {
+    "app": "vim",
+    "keybinding": "H",
+    "function": "to top of screen"
+  },
+  {
+    "app": "vim",
+    "keybinding": "M",
+    "function": "to middle of screen"
+  },
+  {
+    "app": "vim",
+    "keybinding": "L",
+    "function": "to bottom of screen"
+  },
+  {
+    "app": "vim",
+    "keybinding": "w",
+    "function": "jump to start of next word"
+  },
+  {
+    "app": "vim",
+    "keybinding": "W",
+    "function": "jump to start of next word"
+  },
+  {
+    "app": "vim",
+    "keybinding": "e",
+    "function": "jump to end of next word"
+  },
+  {
+    "app": "vim",
+    "keybinding": "E",
+    "function": "jump to end of next word"
+  },
+  {
+    "app": "vim",
+    "keybinding": "b",
+    "function": "jump back to start of previous word"
+  },
+  {
+    "app": "vim",
+    "keybinding": "B",
+    "function": "jump back to start of previous word"
+  },
+  {
+    "app": "vim",
+    "keybinding": 0,
+    "function": "jump to the start of the line"
+  },
+  {
+    "app": "vim",
+    "keybinding": "^",
+    "function": "jump to first non-blank char of line"
+  },
+  {
+    "app": "vim",
+    "keybinding": "$",
+    "function": "jump to end of the line"
+  },
+  {
+    "app": "vim",
+    "keybinding": "g_",
+    "function": "jump to last non-blank char of line"
+  },
+  {
+    "app": "vim",
+    "keybinding": "gg",
+    "function": "go to the first line of the document"
+  },
+  {
+    "app": "vim",
+    "keybinding": "G",
+    "function": "go to the last line of the document"
+  },
+  {
+    "app": "vim",
+    "keybinding": "5G",
+    "function": "go to line 5"
+  },
+  {
+    "app": "vim",
+    "keybinding": "fx",
+    "function": "jump to next occurrence of char x"
+  },
+  {
+    "app": "vim",
+    "keybinding": "}",
+    "function": "jump to next paragraph"
+  },
+  {
+    "app": "vim",
+    "keybinding": "{",
+    "function": "jump to previous paragraph"
+  },
+  {
+    "app": "vim",
+    "keybinding": "zz",
+    "function": "center cursor on screen"
+  },
+  {
+    "app": "vim",
+    "keybinding": "Ctrl + b",
+    "function": "move back one full screen"
+  },
+  {
+    "app": "vim",
+    "keybinding": "Ctrl + f",
+    "function": "move forward one full screen"
+  },
+  {
+    "app": "vim",
+    "keybinding": "Ctrl + d",
+    "function": "move forward 1/2 a screen"
+  },
+  {
+    "app": "vim",
+    "keybinding": "Ctrl + u",
+    "function": "move back 1/2 a screen"
+  },
+  {
+    "app": "vim",
+    "keybinding": "i",
+    "function": "insert before the cursor"
+  },
+  {
+    "app": "vim",
+    "keybinding": "I",
+    "function": "insert at the beginning of the line"
+  },
+  {
+    "app": "vim",
+    "keybinding": "a",
+    "function": "insert (append) after the cursor"
+  },
+  {
+    "app": "vim",
+    "keybinding": "A",
+    "function": "insert (append) at the end of line"
+  },
+  {
+    "app": "vim",
+    "keybinding": "o",
+    "function": "new line below current line"
+  },
+  {
+    "app": "vim",
+    "keybinding": "O",
+    "function": "new line above current line"
+  },
+  {
+    "app": "vim",
+    "keybinding": "",
+    "function": "Esc"
+  },
+  {
+    "app": "vim",
+    "keybinding": "r",
+    "function": "replace a single character"
+  },
+  {
+    "app": "vim",
+    "keybinding": "R",
+    "function": "enter overwrite mode"
+  },
+  {
+    "app": "vim",
+    "keybinding": "J",
+    "function": "join line below to the current one"
+  },
+  {
+    "app": "vim",
+    "keybinding": "ci",
+    "function": "change in (ie. change word = ciw)"
+  },
+  {
+    "app": "vim",
+    "keybinding": "cc",
+    "function": "replace) entire line"
+  },
+  {
+    "app": "vim",
+    "keybinding": "cw",
+    "function": "replace) to start of the next word"
+  },
+  {
+    "app": "vim",
+    "keybinding": "ce",
+    "function": "replace) to end of the next word"
+  },
+  {
+    "app": "vim",
+    "keybinding": "cb",
+    "function": "replace) to start of the previous word"
+  },
+  {
+    "app": "vim",
+    "keybinding": "c0",
+    "function": "replace) to start of the line"
+  },
+  {
+    "app": "vim",
+    "keybinding": "c$",
+    "function": "replace) to end of the line"
+  },
+  {
+    "app": "vim",
+    "keybinding": "s",
+    "function": "delete character and substitute text"
+  },
+  {
+    "app": "vim",
+    "keybinding": "S",
+    "function": "delete line and substitute text"
+  },
+  {
+    "app": "vim",
+    "keybinding": "xp",
+    "function": "transpose two letters"
+  },
+  {
+    "app": "vim",
+    "keybinding": ".",
+    "function": "repeat last command"
+  },
+  {
+    "app": "vim",
+    "keybinding": "u",
+    "function": "undo"
+  },
+  {
+    "app": "vim",
+    "keybinding": "Ctrl + r",
+    "function": "redo"
+  },
+  {
+    "app": "vim",
+    "keybinding": "Use q<alias>",
+    "function": "start recording a macro"
+  },
+  {
+    "app": "vim",
+    "keybinding": "Use @<alias>",
+    "function": "run macro"
+  },
+  {
+    "app": "vim",
+    "keybinding": "v",
+    "function": "start visual mode"
+  },
+  {
+    "app": "vim",
+    "keybinding": "V",
+    "function": "start linewise visual mode"
+  },
+  {
+    "app": "vim",
+    "keybinding": "o",
+    "function": "move to other end of marked area"
+  },
+  {
+    "app": "vim",
+    "keybinding": "O",
+    "function": "move to other corner of block"
+  },
+  {
+    "app": "vim",
+    "keybinding": "aw",
+    "function": "mark a word"
+  },
+  {
+    "app": "vim",
+    "keybinding": "ab",
+    "function": "a block with ()"
+  },
+  {
+    "app": "vim",
+    "keybinding": "aB",
+    "function": "a block with {}"
+  },
+  {
+    "app": "vim",
+    "keybinding": "ib",
+    "function": "inner block with ()"
+  },
+  {
+    "app": "vim",
+    "keybinding": "iB",
+    "function": "inner block with {}"
+  },
+  {
+    "app": "vim",
+    "keybinding": "Esc",
+    "function": "exit visual mode"
+  },
+  {
+    "app": "vim",
+    "keybinding": "Ctrl  +  v",
+    "function": "start visual block mode"
+  },
+  {
+    "app": "vim",
+    "keybinding": ">",
+    "function": "shift text right"
+  },
+  {
+    "app": "vim",
+    "keybinding": "<",
+    "function": "shift text left"
+  },
+  {
+    "app": "vim",
+    "keybinding": "y",
+    "function": "yank (copy) marked text"
+  },
+  {
+    "app": "vim",
+    "keybinding": "d",
+    "function": "delete marked text"
+  },
+  {
+    "app": "vim",
+    "keybinding": "~",
+    "function": "switch case"
+  },
+  {
+    "app": "vim",
+    "keybinding": "dtc",
+    "function": "Delete to character"
+  },
+  {
+    "app": "vim",
+    "keybinding": "yy",
+    "function": "yank (copy) a line"
+  },
+  {
+    "app": "vim",
+    "keybinding": "2yy",
+    "function": "yank (copy) 2 lines"
+  },
+  {
+    "app": "vim",
+    "keybinding": "yw",
+    "function": "yank (copy) the char of the word"
+  },
+  {
+    "app": "vim",
+    "keybinding": "y$",
+    "function": "yank (copy) to end of line"
+  },
+  {
+    "app": "vim",
+    "keybinding": "p",
+    "function": "paste the clipboard after cursor"
+  },
+  {
+    "app": "vim",
+    "keybinding": "P",
+    "function": "paste before cursor"
+  },
+  {
+    "app": "vim",
+    "keybinding": "dd",
+    "function": "cut a line"
+  },
+  {
+    "app": "vim",
+    "keybinding": "2dd",
+    "function": "cut 2 lines"
+  },
+  {
+    "app": "vim",
+    "keybinding": "dw",
+    "function": "cut the char of the word"
+  },
+  {
+    "app": "vim",
+    "keybinding": "D",
+    "function": "cut to the end of the line"
+  },
+  {
+    "app": "vim",
+    "keybinding": "d$",
+    "function": "cut to the end of the line"
+  },
+  {
+    "app": "vim",
+    "keybinding": "d^",
+    "function": "cut to the first non-blank"
+  },
+  {
+    "app": "vim",
+    "keybinding": "d0",
+    "function": "cut to the begining of the line"
+  },
+  {
+    "app": "vim",
+    "keybinding": "x",
+    "function": "cut character"
+  },
+  {
+    "app": "vim",
+    "keybinding": "spacebar",
+    "function": "search"
+  },
+  {
+    "app": "vim",
+    "keybinding": "ctrl + spacebar",
+    "function": "search prev"
+  },
+  {
+    "app": "vim",
+    "keybinding": "/pattern",
+    "function": "search for pattern"
+  },
+  {
+    "app": "vim",
+    "keybinding": "?pattern",
+    "function": "search backward for pattern"
+  },
+  {
+    "app": "vim",
+    "keybinding": "n",
+    "function": "repeat search in same direction"
+  },
+  {
+    "app": "vim",
+    "keybinding": "N",
+    "function": "repeat search in opposite direction"
+  },
+  {
+    "app": "vim",
+    "keybinding": ":%s/old/new/g",
+    "function": "replace old with new through file"
+  },
+  {
+    "app": "vim",
+    "keybinding": ":%s/old/new/gc",
+    "function": "replace old with new through file"
+  },
+  {
+    "app": "vim",
+    "keybinding": ":noh",
+    "function": "remove highlighting of search matches"
+  },
+  {
+    "app": "vim",
+    "keybinding": ":vimgrep /pattern/ {file}",
+    "function": "search for pattern in multiple files"
+  },
+  {
+    "app": "vim",
+    "keybinding": ":cn",
+    "function": "jump to the next match"
+  },
+  {
+    "app": "vim",
+    "keybinding": ":cp",
+    "function": "jump to the previous match"
+  },
+  {
+    "app": "vim",
+    "keybinding": ":copen",
+    "function": "open a window with the list of matches"
+  },
+  {
+    "app": "vim",
+    "keybinding": ":w or :w /path",
+    "function": "write (save) file"
+  },
+  {
+    "app": "vim",
+    "keybinding": ":W",
+    "function": "write (save) file as sudo"
+  },
+  {
+    "app": "vim",
+    "keybinding": ":w !sudo tee %",
+    "function": "write out the current file using sudo"
+  },
+  {
+    "app": "vim",
+    "keybinding": ":wq or :x or ZZ",
+    "function": "write (save) and quit"
+  },
+  {
+    "app": "vim",
+    "keybinding": ":q",
+    "function": "quit"
+  },
+  {
+    "app": "vim",
+    "keybinding": ":q! or ZQ",
+    "function": "quit and throw away unsaved changes"
+  },
+  {
+    "app": "vim",
+    "keybinding": ":bd or bd!",
+    "function": "Close the file (buffer)"
+  },
+  {
+    "app": "vim",
+    "keybinding": ":e file",
+    "function": "edit a file in a new buffer"
+  },
+  {
+    "app": "vim",
+    "keybinding": ":bnext or :bn",
+    "function": "go to the next buffer"
+  },
+  {
+    "app": "vim",
+    "keybinding": ":bprev or :bp",
+    "function": "go to the previous buffer"
+  },
+  {
+    "app": "vim",
+    "keybinding": ":bd",
+    "function": "delete a buffer (close a file)"
+  },
+  {
+    "app": "vim",
+    "keybinding": ":ls",
+    "function": "list all open buffers"
+  },
+  {
+    "app": "vim",
+    "keybinding": ":sp file",
+    "function": "open in buffer with split"
+  },
+  {
+    "app": "vim",
+    "keybinding": ":vsp file",
+    "function": "open in buffer with vertical split"
+  },
+  {
+    "app": "vim",
+    "keybinding": "Ctrl + wv",
+    "function": "split window vertically"
+  },
+  {
+    "app": "vim",
+    "keybinding": "Ctrl + ws",
+    "function": "split window horizontally"
+  },
+  {
+    "app": "vim",
+    "keybinding": "Ctrl + ww",
+    "function": "switch windows"
+  },
+  {
+    "app": "vim",
+    "keybinding": "Ctrl + wq",
+    "function": "quit a window"
+  },
+  {
+    "app": "vim",
+    "keybinding": "Ctrl + wv",
+    "function": "split window vertically"
+  },
+  {
+    "app": "vim",
+    "keybinding": "Ctrl + wh",
+    "function": "cursor to left window"
+  },
+  {
+    "app": "vim",
+    "keybinding": "Ctrl + wl",
+    "function": "cursor to right window"
+  },
+  {
+    "app": "vim",
+    "keybinding": "Ctrl + wj",
+    "function": "cursor to window below it"
+  },
+  {
+    "app": "vim",
+    "keybinding": "Ctrl + wk",
+    "function": "cursor to window above it"
+  },
+  {
+    "app": "vim",
+    "keybinding": "':windo diffthis'",
+    "function": "diff current windows into a new buffer"
+  },
+  {
+    "app": "vim",
+    "keybinding": "<number>gt",
+    "function": "move to tab <number>"
+  },
+  {
+    "app": "vim",
+    "keybinding": "Ctrl + wT",
+    "function": "move the current split into a new tab"
+  },
+  {
+    "app": "vim",
+    "keybinding": "gt or :tabnext or :tabn",
+    "function": "move to the next tab"
+  },
+  {
+    "app": "vim",
+    "keybinding": "gT or :tabprev or :tabp",
+    "function": "move to the previous tab"
+  },
+  {
+    "app": "vim",
+    "keybinding": ":tabmove <number>",
+    "function": "move current tab to the nth position"
+  },
+  {
+    "app": "vim",
+    "keybinding": ":tabclose or :tabc",
+    "function": "close the current tab and all windows"
+  },
+  {
+    "app": "vim",
+    "keybinding": ":tabonly or :tabo",
+    "function": "close all tabs except the current one"
+  },
+  {
+    "app": "vim",
+    "keybinding": ":tabdo command",
+    "function": "run the command on all tabs"
+  },
+  {
+    "app": "vim",
+    "keybinding": "zo / zO",
+    "function": "Open fold"
+  },
+  {
+    "app": "vim",
+    "keybinding": "zc / zC",
+    "function": "Close fold"
+  },
+  {
+    "app": "vim",
+    "keybinding": "za / zA",
+    "function": "Toggle fold"
+  },
+  {
+    "app": "vim",
+    "keybinding": "zv",
+    "function": "Open folds for this line"
+  },
+  {
+    "app": "vim",
+    "keybinding": "zM",
+    "function": "Close all folds"
+  },
+  {
+    "app": "vim",
+    "keybinding": "zR",
+    "function": "Open all folds"
+  },
+  {
+    "app": "vim",
+    "keybinding": "zm",
+    "function": "Fold more (foldlevel  + = 1)"
+  },
+  {
+    "app": "vim",
+    "keybinding": "zr",
+    "function": "Fold less (foldlevel -= 1)"
+  },
+  {
+    "app": "vim",
+    "keybinding": "zx",
+    "function": "Update folds"
+  },
+  {
+    "app": "vim",
+    "keybinding": ":mksession /path",
+    "function": "Save the curren vim session"
+  },
+  {
+    "app": "vim",
+    "keybinding": ":source /path",
+    "function": "Load the specified vim session"
+  },
+  {
+    "app": "vim",
+    "keybinding": "line: iab",
+    "function": "Insert timestamp"
+  },
+  {
+    "app": "vim",
+    "keybinding": "line: $q",
+    "function": "Delete until the last slash"
+  },
+  {
+    "app": "vim",
+    "keybinding": "<leader>s",
+    "function": "Invoke AceJump"
+  },
+  {
+    "app": "vim",
+    "keybinding": "<leader>m",
+    "function": "Move one char right in insert mode"
+  },
+  {
+    "app": "vim",
+    "keybinding": "<leader>ev",
+    "function": "Edit current .vimrc"
+  },
+  {
+    "app": "vim",
+    "keybinding": "<leader>sv",
+    "function": "Reload .vimrc"
+  },
+  {
+    "app": "vim",
+    "keybinding": "<leader>cal",
+    "function": "Calendar"
+  },
+  {
+    "app": "vim",
+    "keybinding": "<leader>f",
+    "function": "Fold all on indents"
+  },
+  {
+    "app": "vim",
+    "keybinding": "<leader>ne",
+    "function": "Open file explorer (Netrw)"
+  },
+  {
+    "app": "vim",
+    "keybinding": "<leader>tt",
+    "function": "Save"
+  },
+  {
+    "app": "vim",
+    "keybinding": "nn",
+    "function": "Exit insert mode"
+  },
+  {
+    "app": "vim",
+    "keybinding": "gf",
+    "function": "Goto file"
+  },
+  {
+    "app": "vim",
+    "keybinding": "gd",
+    "function": "Goto function definition"
+  },
+  {
+    "app": "vim",
+    "keybinding": "ctrl + o",
+    "function": "Vim back (from links)"
+  },
+  {
+    "app": "vim",
+    "keybinding": "g - Ctrl + G",
+    "function": "Word count"
+  },
+  {
+    "app": "vim",
+    "keybinding": "Ctrl - w-=",
+    "function": "Resize splits to be equal"
+  },
+  {
+    "app": "vim",
+    "keybinding": "Ctrl - w-HJKL",
+    "function": "Move split to direction"
+  },
+  {
+    "app": "vim",
+    "keybinding": "':TOHtml'",
+    "function": "Export buffer to HTML page"
+  },
+  {
+    "app": "vim",
+    "keybinding": "':v/\\S/d'",
+    "function": "Remove all blank lines"
+  },
+  {
+    "app": "vim",
+    "keybinding": "':set syntax=sql'",
+    "function": "Set syntax highlighting"
+  }
+]

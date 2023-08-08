@@ -1,9 +1,0 @@
-{
-    "fman": [
-        { "function": "Open in right pane", "keybinding": "shift + l" },
-        { "function": "Open in left pane", "keybinding": "shift + h" },
-        { "function": "New directory", "keybinding": "ctrl + shift + n" },
-        { "function": "Move to other pane", "keybinding": "ctrl + shift + h" },
-        { "function": "Move to other pane", "keybinding": "ctrl + shift + l" }
-    ]
-}

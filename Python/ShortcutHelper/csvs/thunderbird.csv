@@ -1,0 +1,5 @@
+app,keybinding,function
+thunderbird,Ctrl + f,Open menu
+thunderbird,Ctrl + w,Close tab
+thunderbird,Ctrl + n,New email
+thunderbird,Ctrl + r,Reply email
