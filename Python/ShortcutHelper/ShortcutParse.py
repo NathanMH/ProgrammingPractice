@@ -32,10 +32,6 @@ def score_function_list(app, data, query):
     app_functions = []
     for item in data:
 
-        # score = fuzz.partial_ratio(input.lower(), item["function"].lower())
-        # score = fuzz.token_sort_ratio(input.lower(), item["function"].lower())
-        # score = fuzz.ratio(input.lower(), item["function"].lower())
-
         score = fuzz.partial_token_sort_ratio(query.lower(), item["function"].lower())
 
         app_functions.append(

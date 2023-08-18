@@ -62,5 +62,14 @@
   {
     "keybinding": "ctrl + shift + l",
     "function": "Move to other pane"
+  },
+  {
+    "keybinding": "shift+u",
+    "function": "Unzip selected archive"
+  },
+  {
+    "keybinding": "alt + e",
+    "function": "Recursive view pane"
   }
+
 ]
