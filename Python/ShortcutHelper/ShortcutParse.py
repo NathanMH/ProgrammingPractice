@@ -56,6 +56,7 @@ def get_top_5(function_list):
 def main(query):
     paths = get_filepaths()
     master_function_list = []
+    # Sorting isn't necessary since the score from Fuzz can be used for FlowLauncher as well.
 
     for key, value in paths.items():
         json_output = load_json(value)

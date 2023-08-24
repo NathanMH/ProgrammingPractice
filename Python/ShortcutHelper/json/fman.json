@@ -70,6 +70,10 @@
   {
     "keybinding": "alt + e",
     "function": "Recursive view pane"
+  },
+  {
+    "keybinding": "alt + k",
+    "function": "Open folder in VScode"
   }
 
 ]
