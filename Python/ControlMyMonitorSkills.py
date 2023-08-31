@@ -6,9 +6,10 @@ from turtle import textinput
 
 dirname = os.path.dirname(__file__)
 
+# Need to run "C:\Users\natha\Desktop\PortableUtils\ControlMyMonitor\ControlMyMonitor.exe /smonitors monitors.txt
 monitor_file = dirname + "monitors.txt"
 monitor_filepath = (
-    "C:\\Users\\natha\\Desktop\\PortableApps\\ControlMyMonitor\\monitors.txt"
+    "C:\\Users\\natha\\Desktop\\PortableUtils\\ControlMyMonitor\\monitors.txt"
 )
 
 monitor_strings = []
@@ -45,7 +46,7 @@ def get_monitor_serials():
 
 
 def set_bright(level):
-    command_string = "C:\\Users\\natha\\Desktop\\PortableApps\\ControlMyMonitor\\ControlMyMonitor.exe /SetValue "
+    command_string = "C:\\Users\\natha\\Desktop\\PortableUtils\\ControlMyMonitor\\ControlMyMonitor.exe /SetValue "
     for mon in monitors.values():
         full_command = command_string + mon + " 10 " + str(level)
         print(full_command)
@@ -54,7 +55,7 @@ def set_bright(level):
 
 
 def switch_input(mon):
-    command_string = "C:\\Users\\natha\\Desktop\\PortableApps\\ControlMyMonitor\\ControlMyMonitor.exe /SwitchValue "
+    command_string = "C:\\Users\\natha\\Desktop\\PortableUtils\\ControlMyMonitor\\ControlMyMonitor.exe /SwitchValue "
     full_command = command_string + mon + " 60 49 15"
     print(full_command)
     subprocess.run(full_command, shell=True)

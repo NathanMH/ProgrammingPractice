@@ -1,5 +1,0 @@
-app,keybinding,function
-docker,docker ps,List running containers
-docker,docker images,list images
-docker,docker container ls,list containers
-docker,docker pull <image>,get image from dockerhub
